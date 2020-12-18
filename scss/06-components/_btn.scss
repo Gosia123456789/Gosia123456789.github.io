@@ -15,6 +15,16 @@
             background-color: darken($color-red, 10%);
         }
     }
+
+    &__section {
+        border-radius: 2rem;
+        float: right;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    
+    }
+
     &--green {
         background-color: $color-green;
         &:hover {
@@ -34,4 +44,14 @@
         line-height: 10rem;
         padding: 0;
     }
+    &--article {
+        padding: 10px;
+        font-size: $font-base *1.3;
+        font-weight: bold;
+        color: $color-white;
+        border: $color-white solid 2px;
+
+        
+    }
+  
 }

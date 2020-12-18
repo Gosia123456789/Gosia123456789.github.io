@@ -147,6 +147,9 @@ p {
         font-size: 100px; } }
   .heading--h2 {
     font-size: 50px; }
+  .heading--h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; }
 
 .btn {
   color: #eff0f3;
@@ -163,6 +166,11 @@ p {
     background-color: #74030e; }
     .btn--red:hover {
       background-color: #420208; }
+  .btn__section {
+    border-radius: 2rem;
+    float: right; }
+    .btn__section:hover {
+      background-color: rgba(255, 255, 255, 0.3); }
   .btn--green {
     background-color: #132601; }
     .btn--green:hover {
@@ -177,6 +185,12 @@ p {
     height: 10rem;
     line-height: 10rem;
     padding: 0; }
+  .btn--article {
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #eff0f3;
+    border: #eff0f3 solid 2px; }
 
 .social {
   width: 200px;
@@ -265,6 +279,19 @@ p {
       background-color: rgba(255, 255, 255, 0.2);
       color: #eff0f3; }
 
+.article {
+  padding: 10px;
+  border: #eff0f3 1px solid;
+  border-radius: .6rem;
+  box-shadow: 0px 0px 10px #eff0f3; }
+  .article:hover {
+    box-shadow: 0px 0px 20px #eff0f3; }
+  .article__text {
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: #eff0f3; }
+
 .site-body__social {
   position: fixed;
   left: -135px;
@@ -300,6 +327,8 @@ p {
   padding-top: 3rem; }
   .site-section--bg-color {
     background-color: #504533; }
+  .site-section--bg-color-2 {
+    background-color: #817156; }
 
 .site-contact {
   background: url("../assets/img/contact.jpeg") center/cover no-repeat;
